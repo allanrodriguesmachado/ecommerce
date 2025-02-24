@@ -5,7 +5,7 @@ declare(strict_types=1);
 if (!function_exists('bashPath')) {
     function bashPath(string $path): string
     {
-        return dirname(__DIR__, 2) . '/' . $path;
+        return dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . '/' . $path;
     }
 }
 
