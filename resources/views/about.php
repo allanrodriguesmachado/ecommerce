@@ -1,17 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href='<?= mix('/css/app.css') ?>'>
 
-  <title>Document</title>
-</head>
-<body>
 <div class="bg-white">
-
-
-
     <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -49,75 +37,11 @@
 
     <div class="relative isolate px-6 pt-14 lg:px-8 mt-10">
     <div class="relative overflow-x-auto">
-      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-        <tr>
-          <th scope="col" class="px-6 py-3">
-            Product name
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Color
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Category
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Price
-          </th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-            Apple MacBook Pro 17"
-          </th>
-          <td class="px-6 py-4">
-            Silver
-          </td>
-          <td class="px-6 py-4">
-            Laptop
-          </td>
-          <td class="px-6 py-4">
-            $2999
-          </td>
-        </tr>
-        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-            Microsoft Surface Pro
-          </th>
-          <td class="px-6 py-4">
-            White
-          </td>
-          <td class="px-6 py-4">
-            Laptop PC
-          </td>
-          <td class="px-6 py-4">
-            $1999
-          </td>
-        </tr>
-        <tr class="bg-white dark:bg-gray-800">
-          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-            Magic Mouse 2
-          </th>
-          <td class="px-6 py-4">
-            Black
-          </td>
-          <td class="px-6 py-4">
-            Accessories
-          </td>
-          <td class="px-6 py-4">
-            $99
-          </td>
-        </tr>
-        </tbody>
-      </table>
+        <h1>About</h1>
     </div>
 
 
   </div>
 </div>
-
-</body>
-</html>
 
 

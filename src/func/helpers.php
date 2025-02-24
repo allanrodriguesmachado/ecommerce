@@ -9,7 +9,7 @@ if (!function_exists('bashPath')) {
     }
 }
 
-if(!function_exists('mix')) {
+if (!function_exists('mix')) {
     function mix(string $path)
     {
         if (!file_exists(bashPath('public/mix-manifest.json'))) {
@@ -21,5 +21,12 @@ if(!function_exists('mix')) {
         $content = json_decode($content, true);
 
         return $content[$path] ?? '';
+    }
+}
+
+if (!function_exists('resource_path')) {
+    function resource_path(string $path = ''): string
+    {
+        return bashPath('resources' . DIRECTORY_SEPARATOR . $path);
     }
 }
