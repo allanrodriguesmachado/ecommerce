@@ -17,6 +17,7 @@ if(!function_exists('mix')) {
         }
 
         $content = file_get_contents(__DIR__ . '/../../public/mix-manifest.json');
+
         $content = json_decode($content, true);
 
         return $content[$path] ?? '';
