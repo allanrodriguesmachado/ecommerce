@@ -30,8 +30,7 @@ add your own hostname on your `/etc/hosts`
 
 Service|Address outside containers
 -------|--------------------------
-Webserver|[localhost:18000](http://localhost:18000)
-PostgreSQL|**host:** `localhost`; **port:** `18004`
+Webserver|[localhost:8000](http://localhost:8000)
 
 ## Hosts within your environment ##
 
@@ -40,7 +39,6 @@ You'll need to configure your application to use any services you enabled:
 Service|Hostname|Port number
 ------|---------|-----------
 php-fpm|php-fpm|9000
-Postgres|postgres|5432 (default)
 
 # Docker compose cheatsheet #
 

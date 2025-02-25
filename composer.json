@@ -1,23 +1,27 @@
 {
-    "name": "allanrodriguea/ecommerce",
-    "description": "Project PHP",
-    "type": "project",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Src\\": "src/"
-        },
-        "files": [
-            "src/func/helpers.php"
-        ]
+  "name": "allanrodriguea/ecommerce",
+  "description": "Project PHP",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/",
+      "Core\\": "core/"
     },
-    "authors": [
-        {
-            "name": "Allan Rodrigues",
-            "email": "allan.rodrigues14@hotmail.com"
-        }
-    ],
-    "require-dev": {
-        "symfony/var-dumper": "^7.2"
+    "files": [
+      "src/func/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Allan Rodrigues",
+      "email": "allan.rodrigues14@hotmail.com"
     }
+  ],
+  "require-dev": {
+    "symfony/var-dumper": "^7.2"
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
 }
