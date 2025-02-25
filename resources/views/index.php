@@ -49,7 +49,7 @@
     <div class="relative isolate px-6 pt-14 lg:px-8 mt-10">
         <div class="relative overflow-x-auto">
             <?php foreach ($re as $item): ?>
-            <li> <?=$item->name; ?></li>
+            <li><a href="<?= $item['id']; ?>"><?=$item['name']; ?></a></li>
             <?php endforeach; ?>
         </div>
     </div>

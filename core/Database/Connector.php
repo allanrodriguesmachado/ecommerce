@@ -12,6 +12,15 @@ class Connector extends Conn
         $smtp->execute();
 
         return $smtp->fetchAll(PDO::FETCH_OBJ);
+    }
 
+    public function find($id): array
+    {
+        $sql = sprintf('SELECT * FROM users WHERE id = %d', $id);
+
+        $smtp = $this->conn()->prepare($sql);
+        $smtp->execute();
+
+        return $smtp->fetchAll();
     }
 }
